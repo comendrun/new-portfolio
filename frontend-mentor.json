@@ -1,0 +1,208 @@
+{
+  "FrontendMentorChallenges": "https://comendrun.github.io/Frontend-Mentor-Challenges/",
+
+  "allFMChallenges": [
+    {
+      "id": 1,
+      "title": "QR code component",
+      "links": {
+        "live": "https://nnf4sx.csb.app/",
+        "github": "https://github.com/comendrun/qr-code-component/tree/main/",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/html-cssflexbox-r1rhFXor5"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "title": "NFT preview card component",
+      "links": {
+        "live": "https://r8mp1o.csb.app/",
+        "github": "https://github.com/comendrun/nft-project-preview-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/html-cssflexbox-BykPZBiS5"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 3,
+      "title": "Order summary component",
+      "links": {
+        "live": "https://9nb3gd.csb.app/",
+        "github": "https://github.com/comendrun/order-summary-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/htmlcss-flexbox-SJBmYJnBq"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 4,
+      "title": "Stats preview card component",
+      "links": {
+        "live": "https://comendrun.github.io/stats-preview-card-component/",
+        "github": "https://github.com/comendrun/stats-preview-card-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/styling-this-page-with-css-flexbox-and-also-mediaqueries-BJsCVtnrq"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+
+    {
+      "id": 5,
+      "title": "Interactive rating component",
+      "links": {
+        "live": "https://hwvmmp.csb.app/",
+        "github": "https://github.com/comendrun/Interactive-rating-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/interactive-rating-component-with-two-states-and-css-flexbox-SkKILFnS5"
+      },
+      "tech": ["HTML", "CSS", "JavaScript", "ReactJS"]
+    },
+    {
+      "id": 6,
+      "title": "column preview card component",
+      "links": {
+        "live": "https://comendrun.github.io/3-column-preview-card-component/",
+        "github": "https://github.com/comendrun/3-column-preview-card-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/used-cssgrid-and-cssflexbox-for-styling-this-three-column-preview-SJccUs3rc"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 7,
+      "title": "Profile card component",
+      "links": {
+        "live": "https://comendrun.github.io/Profile-card-component/",
+        "github": "https://github.com/comendrun/Profile-card-component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/used-css-flexbox-for-this-challenge-S13XwjaSq"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 8,
+      "title": "FAQ accordion card",
+      "links": {
+        "live": "https://comendrun.github.io/faq-accordion-card/",
+        "github": "https://github.com/comendrun/faq-accordion-card/tree/master",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/faq-using-reactjs-and-also-mobilefirst-approach-fordesign-BJ3uTUUL9"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 9,
+      "title": "Social proof section",
+      "links": {
+        "live": "https://comendrun.github.io/social-proof-section/",
+        "github": "https://github.com/comendrun/social-proof-section",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/used-css-grid-and-flexbox-and-also-mobilefirst-approach-HywF4fPUq"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 10,
+      "title": "Four card feature section",
+      "links": {
+        "live": "https://comendrun.github.io/Four-Card-Feature-Section/",
+        "github": "https://github.com/comendrun/Four-Card-Feature-Section/blob/new-branch/README.md",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/using-flexbox-and-also-mobilefirst-approach-to-finish-this-challenge-BkOkmfiIc"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 11,
+      "title": "Base Apparel coming soon page",
+      "links": {
+        "live": "https://comendrun.github.io/base-apparel-coming-soon/",
+        "github": "https://github.com/comendrun/base-apparel-coming-soon",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/html-css-js-regex-mobilefirst-approach-SJZ-naCU9"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 12,
+      "title": "Intro component with sign-up form",
+      "links": {
+        "live": "https://comendrun.github.io/Intro-Component-with-Signup-Form/",
+        "github": "https://github.com/comendrun/Intro-Component-with-Signup-Form",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/intro-components-using-html-cssflexbox-also-javascript-validation-LbAIqzOu9e"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 13,
+      "title": "Single price grid component",
+      "links": {
+        "live": "https://comendrun.github.io/Single-Price-Grid-Component/",
+        "github": "https://github.com/comendrun/Single-Price-Grid-Component",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/mobilefirst-approach-and-cssflexbox-VBlrr4MMsE"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 14,
+      "title": "Ping single column coming soon page",
+      "links": {
+        "live": "https://comendrun.github.io/Ping-Coming-Soon-Page/",
+        "github": "https://github.com/comendrun/Ping-Coming-Soon-Page",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/mobilefirst-approach-css-flexbox-and-8XA4qSO-SG"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 15,
+      "title": "Huddle landing page with a single introductory section",
+      "links": {
+        "live": "https://comendrun.github.io/Huddle-landing-Page-With-Single-Introductory-Section/",
+        "github": "https://github.com/comendrun/Huddle-landing-Page-With-Single-Introductory-Section",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/used-mobilefirst-approach-and-css-flexbox-OUfehDan_i"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 16,
+      "title": "Intro section with dropdown navigation",
+      "links": {
+        "live": "https://comendrun.github.io/Intro-Section-With-Dropdown-Navigation/",
+        "github": "https://github.com/comendrun/Intro-Section-With-Dropdown-Navigation",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/mobilefirst-approach-and-cssflex-U1YEOxfiwA"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 17,
+      "title": "Advice generator app",
+      "links": {
+        "live": "https://comendrun.github.io/Advice-Generator-App/",
+        "github": "https://github.com/comendrun/Advice-Generator-App",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/advicegen-using-mobilefirst-approach-css-flexbox-eyPXtVmvDw"
+      },
+      "tech": ["HTML", "CSS"]
+    },
+    {
+      "id": 18,
+      "title": "Time Tracking Dashboard",
+      "links": {
+        "live": "https://comendrun.github.io/Time-Tracking-Dashboard/",
+        "github": "https://github.com/comendrun/Time-Tracking-Dashboard/blob/master/README.md",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/ttd-using-sass-cssgridreactjs-jJCSNgTNAp"
+      },
+      "tech": ["HTML", "CSS", "JavaScript", "ReactJS"]
+    },
+    {
+      "id": 19,
+      "title": "Tip Calculator app",
+      "links": {
+        "live": "https://comendrun.github.io/Tip-calculator-app/",
+        "github": "https://github.com/comendrun/Tip-calculator-app",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/used-reactjs-csscustomprops-and-mobilefirst-approach-5vKQ0_y3oS"
+      },
+      "tech": ["HTML", "CSS", "JavaScript", "ReactJS"]
+    },
+
+    {
+      "id": 20,
+      "title": "Sunnyside Agency Landing Page",
+      "links": {
+        "live": "https://github.com/comendrun/sunnyside-agency-landing-page",
+        "github": "https://comendrun.github.io/sunnyside-agency-landing-page/",
+        "frontend-mentor": "https://www.frontendmentor.io/solutions/css-flexbox-and-css-grid-and-vanilla-js-QCKKqTqrT0"
+      },
+      "tech": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}
