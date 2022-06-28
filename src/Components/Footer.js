@@ -4,34 +4,55 @@ export default function Footer() {
   return (
     <footer className="footer">
       {/* <!-- replace with your own email address --> */}
-      <a href="mailto:hello@jane.dev" className="footer__link">
-        hello@jane.dev
+      <a href="mailto:info@comnendrun.com" className="footer__link">
+        info@comnendrun.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">
-          <a className="social-list__link" href="https://codepen.io">
-            <i className="fab fa-codepen"></i>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="social-list__link"
+            href="https://www.frontendmentor.io/profile/comendrun"
+          >
+            <i className="">FM</i>
           </a>
         </li>
         <li className="social-list__item">
-          <a className="social-list__link" href="http://dribbble.com">
-            <i className="fab fa-dribbble"></i>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="social-list__link"
+            href="https://www.linkedin.com/in/comendrun/"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
           </a>
         </li>
         <li className="social-list__item">
-          <a className="social-list__link" href="https://twitter.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="social-list__link"
+            href="https://twitter.com/comendrun"
+          >
             <i className="fab fa-twitter"></i>
           </a>
         </li>
         <li className="social-list__item">
-          <a className="social-list__link" href="https://github.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="social-list__link"
+            href="https://github.com/comendrun"
+          >
             <i className="fab fa-github"></i>
           </a>
         </li>
       </ul>
       <div className="logo">
-        {/* <img src={topLogoDark} alt="" /> */}
-        <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
+        <a title="Go to TOP" href="#header">
+          <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
+        </a>
       </div>
     </footer>
   );

@@ -21,6 +21,11 @@
           "name": "JavaScript",
           "display": "fa-brands fa-js"
         },
+
+        {
+          "name": "ReactJS",
+          "display": "fa-brands fa-react"
+        },
         {
           "name": "Responsive",
           "display": "fa-solid fa-mobile-screen-button"

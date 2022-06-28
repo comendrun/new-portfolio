@@ -4,7 +4,7 @@ export default function Header() {
   const [isNavbarOn, setIsNavbarOn] = useState(false);
 
   return (
-    <header>
+    <header id="header">
       <div
         onClick={() => {
           setIsNavbarOn((preValue) => !preValue);

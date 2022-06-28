@@ -6,21 +6,27 @@ export default function About() {
     <section className="about-me" id="about">
       <h2 className="section__title section__title--about">Who I am</h2>
       <p className="section__subtitle section__subtitle--about">
-        Designer & developer based out of NYC
+        Frontend Developer based in Ingolstadt
       </p>
 
       <div className="about-me__body">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          I'm a self-taught Frontend Web Developer & I enjoy learning and
+          coding. I have several personal projects and mostly spend my time
+          learning new technologies or developing my current stack. I strongly
+          believe in my abilities and I'm eager to learn more and more every
+          day.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          After several years of experience as a Dental Technician- while I
+          gained valuable skills- I'm finally about to make a big change in my
+          life and change careers. It's a big step for me but a small one
+          towards a new life full of programming.
+        </p>
+        <p>
+          I am interested in working with teams that value Respect, humility,
+          and also Collective growth & Open to remote positions, as well as
+          on-site positions in München, Ingolstadt, or Nürnberg ( Germany ).
         </p>
       </div>
 
