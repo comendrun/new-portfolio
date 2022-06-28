@@ -13,7 +13,7 @@ export default function Header() {
       ></div>
       <div className="logo">
         <a href="/">
-          <i class="fa-solid fa-terminal"></i>comendrun -m "Kamran"
+          <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
         </a>
       </div>
       <button

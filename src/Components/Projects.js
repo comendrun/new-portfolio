@@ -4,20 +4,14 @@ import { useFetch } from "../hooks/useFetch";
 import { nanoid } from "nanoid";
 
 export default function Projects() {
-  const [url, setUrl] = useState("http://localhost:3000/projects");
-  const { data: projects, isPending, error } = useFetch(url);
-
-  function mappingThroughIcons(parent, child) {
-    parent.map((each) => {
-      console.log(each);
-      return <i title="" className={child}></i>;
-    });
-  }
-  //   mappingThroughIcons(projects[0].tech);
+  const [url, setUrl] = useState(
+    "https://my-json-server.typicode.com/comendrun/comendrun.github.io/db"
+  );
+  const { data, isPending, error } = useFetch(url);
 
   const mappingThroughProjects = () => {
-    if (projects) {
-      const orderedByLatestFirst = projects.sort((a, b) =>
+    if (data) {
+      const orderedByLatestFirst = data.projects.sort((a, b) =>
         a.id > b.id ? -1 : 1
       );
       return orderedByLatestFirst.map((project) => {

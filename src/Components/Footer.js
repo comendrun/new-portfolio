@@ -31,7 +31,7 @@ export default function Footer() {
       </ul>
       <div className="logo">
         {/* <img src={topLogoDark} alt="" /> */}
-        <i class="fa-solid fa-terminal"></i>comendrun -m "Kamran"
+        <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
       </div>
     </footer>
   );
