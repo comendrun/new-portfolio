@@ -397,11 +397,16 @@ header {
   max-width: 1000px;
   gap: 0.5rem;
   margin: 2rem auto;
+  list-style-type: none;
+  padding: 0;
 }
 
 .tech-skills li {
+  /* display: inline-block; */
+  list-style: none;
+  list-style-type: none;
   border: 1px solid var(--clr-accent);
-  width: 150px;
+  min-width: 150px;
   border-radius: 10px;
   padding: 0.5rem 1rem;
   font-size: 0.7rem;
@@ -409,6 +414,7 @@ header {
   text-shadow: 1px 1px 5px black;
   cursor: pointer;
   transition: background 0.1s ease-in;
+  /* margin: auto; */
 }
 .tech-skills li:hover {
   background: var(--clr-accent);
