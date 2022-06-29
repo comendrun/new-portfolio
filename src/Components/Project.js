@@ -1,8 +1,4 @@
-import React, { useEffect } from "react";
-
-import adviceGeneratorMob from "../Assets/Project Images/frontend-mentor/Advice-Generator-mob.png";
-
-export default function Project({ name, icons, id, live, mobImage }) {
+export default function Project({ name, icons, live }) {
   const image = () => {
     try {
       return require(`../Assets/Project Images/${name}-mobile.png`);

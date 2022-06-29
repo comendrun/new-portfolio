@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       {/* <!-- replace with your own email address --> */}
-      <a href="mailto:info@comnendrun.com" className="footer__link">
-        info@comnendrun.com
+      <a href="mailto:info@comendrun.com" className="footer__link">
+        info@comendrun.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">

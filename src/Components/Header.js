@@ -49,6 +49,11 @@ export default function Header() {
               My Work
             </a>
           </li>
+          <li className="nav__item">
+            <a href="#footer" className="nav__link">
+              Reach out to me
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
