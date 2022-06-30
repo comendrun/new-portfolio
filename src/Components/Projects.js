@@ -15,13 +15,13 @@ export default function Projects() {
         a.id > b.id ? -1 : 1
       );
       return orderedByLatestFirst.map((project) => {
-        // console.log(mappingThroughIcons(project.tech));
         return (
           <Project
             key={nanoid()}
             name={project.title}
             id={project.id}
             live={project.links.live}
+            about={project.about}
             mobImage={project.images.mobile}
             icons={project.tech.map((each) => {
               return (
@@ -37,7 +37,6 @@ export default function Projects() {
       });
     }
   };
-  //   console.log(mappingThroughProjects());
 
   return (
     <div className="portfolio">

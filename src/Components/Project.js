@@ -1,4 +1,4 @@
-export default function Project({ name, icons, live }) {
+export default function Project({ name, icons, live, about }) {
   const image = () => {
     try {
       return require(`../Assets/Project Images/${name}-mobile.png`);
@@ -13,6 +13,9 @@ export default function Project({ name, icons, live }) {
         <img src={image()} alt="" className="portfolio__img" />
         <h3>{name}</h3>
       </a>
+      <div className="about-project">
+        <p>{about}</p>
+      </div>
       <div className="used-tech">
         <p>Used Technologies:</p>
         <div className="icons-container">{icons}</div>
