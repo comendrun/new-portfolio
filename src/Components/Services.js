@@ -8,28 +8,28 @@ export default function Services() {
         <div className="service">
           <h3>Frontend Development</h3>
           <p>
-            I have experience working wih different methods of Frontend
-            development and mainly i enjoy working with ReactJS library.
+            I have experience working with different methods of Frontend
+            development, Specially I enjoy working with the ReactJS library.
           </p>
         </div>
         {/* <!-- / service --> */}
 
         <div className="service">
-          <h3>Different Work Types</h3>
+          <h3>Learn everyday</h3>
           <p>
-            I am open for on-site or hybrid job positions in Munich, Ingolstadt,
-            Augsburg, or Nurnberg, as well as remote work. Also Im open for any
-            type of work contracts including Full-Time, Part-Time, Temporary,
-            Freelancing or Internship.
+            Any type of work environment or any new challenge is exciting for
+            me. I enjoy learning new technologies and also improve my current
+            knowledge with new challenges.
           </p>
         </div>
         {/* <!-- / service --> */}
 
         <div className="service">
-          <h3>Technical Skill</h3>
+          <h3>Technical Skills</h3>
           <p>
-            I have decent understanding in main tools of Frontend Development
-            and i thrive on learningevery day and in every possible way.
+            I have a decent understanding of the main tools of Frontend
+            Development and I thrive on learning every day and in every possible
+            way.
           </p>
         </div>
         {/* <!-- / service --> */}

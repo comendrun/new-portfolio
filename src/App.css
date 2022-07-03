@@ -458,9 +458,14 @@ header {
 }
 
 .about-me {
-  max-width: 1000px;
   margin: 0 auto;
   background-color: var(--clr-light);
+  /* display: flex;
+  justify-content: center; */
+  /* max-width: 1000px; */
+}
+.about-me__container {
+  margin: auto;
 }
 
 .about-me__img {
@@ -476,6 +481,12 @@ header {
   .about-me__img {
     width: 80%;
     margin: auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .about-me {
+    padding-inline: 20%;
   }
 }
 
@@ -680,9 +691,10 @@ header {
   background-color: #00406c;
   display: flex;
   transition: background-color 0.1s ease-in;
+  cursor: pointer;
 }
 
-.dark-mode-button:hover{
+.dark-mode-button:hover {
   opacity: 0.9;
 }
 
@@ -694,7 +706,7 @@ header {
   background-color: white;
 }
 
-.dark .dark-mode-button{
+.dark .dark-mode-button {
   background-color: white;
 }
 
