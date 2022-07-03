@@ -49,7 +49,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <div className="logo">
+      <div className="logo bottom-logo">
         <a title="Go to TOP" href="#header">
           <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
         </a>

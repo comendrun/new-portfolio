@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Header() {
+export default function Header({ darkModeOnClick }) {
   const [isNavbarOn, setIsNavbarOn] = useState(false);
 
   return (
@@ -55,6 +55,13 @@ export default function Header() {
             </a>
           </li>
         </ul>
+        <div className="dark-mode-container">
+          <i class="fa-solid fa-sun"></i>
+          <div onClick={darkModeOnClick} className="dark-mode-button">
+            <div className="dark-mode-button-toggle"></div>
+          </div>
+          <i class="fa-solid fa-moon"></i>
+        </div>
       </nav>
     </header>
   );
