@@ -66,7 +66,7 @@ html {
 }
 
 body {
-  background: black;
+  background: var(--clr-light);
   /* color: var(--clr-text-body); */
   margin: 0;
   font-family: var(--ff-primary);
@@ -477,6 +477,10 @@ header {
   color: var(--clr-text-body);
 }
 
+.section__title--about {
+  color: var(--clr-text-headings);
+}
+
 @media (max-width: 600px) {
   .about-me__img {
     width: 80%;
@@ -658,6 +662,9 @@ header {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
+  color: var(--clr-text-body);
+  background-color: var(--clr-light);
+  min-width: 100vw;
 }
 
 .portfolio-item-individual p {

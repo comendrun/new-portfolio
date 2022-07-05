@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Header({ darkModeOnClick }) {
   const [isNavbarOn, setIsNavbarOn] = useState(false);
@@ -12,9 +13,9 @@ export default function Header({ darkModeOnClick }) {
         className={isNavbarOn ? "overlay" : "hidden"}
       ></div>
       <div className="logo">
-        <a href="/">
+        <NavLink to="/">
           <i className="fa-solid fa-terminal"></i>comendrun -m "Kamran"
-        </a>
+        </NavLink>
       </div>
       <button
         onClick={() => {
@@ -30,9 +31,9 @@ export default function Header({ darkModeOnClick }) {
       <nav className={`nav ${!isNavbarOn ? "open" : ""}`}>
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#home" className="nav__link">
+            <NavLink to="/" className="nav__link">
               Home
-            </a>
+            </NavLink>
           </li>
           <li className="nav__item">
             <a href="#services" className="nav__link">
@@ -40,12 +41,12 @@ export default function Header({ darkModeOnClick }) {
             </a>
           </li>
           <li className="nav__item">
-            <a href="#about" className="nav__link">
+            <a href="/#about" className="nav__link">
               About me
             </a>
           </li>
           <li className="nav__item">
-            <a href="#work" className="nav__link">
+            <a href="/#work" className="nav__link">
               My Work
             </a>
           </li>
@@ -56,11 +57,11 @@ export default function Header({ darkModeOnClick }) {
           </li>
         </ul>
         <div className="dark-mode-container">
-          <i class="fa-solid fa-sun"></i>
+          <i className="fa-solid fa-sun"></i>
           <div onClick={darkModeOnClick} className="dark-mode-button">
             <div className="dark-mode-button-toggle"></div>
           </div>
-          <i class="fa-solid fa-moon"></i>
+          <i className="fa-solid fa-moon"></i>
         </div>
       </nav>
     </header>

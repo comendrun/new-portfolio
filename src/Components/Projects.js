@@ -2,12 +2,19 @@ import React, { useState } from "react";
 import Project from "./Project";
 import { useFetch } from "../hooks/useFetch";
 import { nanoid } from "nanoid";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
-  const [url, setUrl] = useState(
-    "https://my-json-server.typicode.com/comendrun/comendrun.github.io/db"
-  );
-  const { data, isPending, error } = useFetch(url);
+  // const [url, setUrl] = useState(
+  //   "https://my-json-server.typicode.com/comendrun/comendrun.github.io/db"
+  // );
+  const { data, isPending, error } = useFetch("./db.json");
+
+  // React.useEffect(() => {
+  //   fetch("./db.json")
+  //     .then((res) => res.json())
+  //     .then((data) => console.log(data.projects));
+  // }, []);
 
   const mappingThroughProjects = () => {
     if (data) {

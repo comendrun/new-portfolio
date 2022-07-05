@@ -25,7 +25,7 @@ export default function Footer() {
             className="social-list__link"
             href="https://www.linkedin.com/in/comendrun/"
           >
-            <i class="fa-brands fa-linkedin-in"></i>
+            <i className="fa-brands fa-linkedin-in"></i>
           </a>
         </li>
         <li className="social-list__item">
