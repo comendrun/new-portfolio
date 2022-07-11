@@ -544,6 +544,7 @@ header {
 .portfolio__item {
   overflow: hidden;
   padding: 1rem 0;
+  margin-block: auto;
   /* border: 1px solid red; */
 }
 .portfolio__item a {
@@ -580,11 +581,12 @@ header {
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
-  width: 200px;
+  width: 250px;
 
   margin: 2rem auto;
   border-radius: 5px;
-  max-height: 300px;
+  min-height: 200px;
+  max-height: 400px;
   object-fit: contain;
 }
 
