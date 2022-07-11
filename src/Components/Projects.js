@@ -8,8 +8,8 @@ export default function Projects() {
   // const [url, setUrl] = useState(
   //   "https://my-json-server.typicode.com/comendrun/comendrun.github.io/db"
   // );
-  const { data, isPending, error } = useFetch("https://my-json-server.typicode.com/comendrun/comendrun.github.io/db");
-console.log(data)
+  const { data, isPending, error } = useFetch("./db.json");
+
   // React.useEffect(() => {
   //   fetch("./db.json")
   //     .then((res) => res.json())
