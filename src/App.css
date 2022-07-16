@@ -568,12 +568,12 @@ header {
   justify-content: center;
 }
 
-.used-tech .icons-container i {
+.used-tech .icons-container .icons {
   cursor: pointer;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
-.used-tech .icons-container i:hover {
+.used-tech .icons-container .icons:hover {
   transform: scale(1.01);
   color: rgba(255, 255, 255, 0.5);
   transition: color 0.2s ease-in;
@@ -584,7 +584,7 @@ header {
   width: 250px;
 
   margin: 2rem auto;
-  border-radius: 5px;
+  border-radius: 10px;
   min-height: 200px;
   max-height: 400px;
   object-fit: contain;
@@ -592,10 +592,11 @@ header {
 
 .portfolio__item:hover,
 .portfolio__item:hover a {
-  background-color: var(--clr-accent-low-opacity);
+  background-color: rgba(252, 163, 17, 0.8);
   transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
   color: white;
   transform: scale(1.02);
+  border-radius: 10px;
 }
 
 .portfolio__item:focus {
