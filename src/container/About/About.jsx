@@ -6,6 +6,7 @@ import "./About.scss";
 import { images } from "../../constants";
 
 import { urlFor, client } from "../../client";
+import { AppWrap, MotionWrap } from "../../wrapper";
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -49,4 +50,8 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(
+  MotionWrap(About, "app__about"),
+  "about",
+  "app__whitebg"
+);
