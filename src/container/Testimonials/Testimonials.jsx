@@ -45,7 +45,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="app__testimonial-btn app__flex">
+          <div className="app__testimonial-btns app__flex">
             <div
               className="app__flex"
               onClick={() =>
