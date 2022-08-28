@@ -24,8 +24,10 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
+import comendrun from "../assets/comendrun-removebg.png";
+import comendrun2 from "../assets/comendrun-2.png";
 import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo/light-logo-removebg-preview.png";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -69,4 +71,6 @@ export default {
   nb,
   skype,
   spotify,
+  comendrun,
+  comendrun2,
 };

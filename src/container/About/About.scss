@@ -2,6 +2,9 @@
   flex: 1;
   width: 100%;
   flex-direction: column;
+
+  margin-block: 2rem;
+  margin-inline: 0;
 }
 
 .app__profiles {
@@ -13,26 +16,43 @@
 }
 
 .app__profile-item {
-  width: 190px;
+  width: 400px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   margin: 2rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  transition: all 0.3 ease-in-out;
+
+  h2,
+  p {
+    text-align: center;
+    margin-inline: auto;
+  }
 
   img {
     width: 100%;
-    height: 170px;
+    min-height: 200px;
     border-radius: 15px;
     object-fit: cover;
   }
 
+  @media screen and (max-width: 600px) {
+    width: 90%;
+  }
+
   @media screen and (min-width: 2000px) {
-    width: 370px;
+    width: 450px;
     margin: 2rem 4rem;
 
     img {
       height: 320px;
     }
+  }
+
+  &:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
 }
