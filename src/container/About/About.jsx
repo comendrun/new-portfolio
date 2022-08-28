@@ -17,13 +17,15 @@ const About = () => {
     client.fetch(query).then((data) => setAbouts(data));
   }, []);
 
-  console.log(abouts);
+  
   return (
     <>
       <h2 className="head-text">
-        I know that <span>Good development</span> <br /> means{" "}
-        <span>Good business</span>
+        From being a <span>Dental Technician</span> <br /> to become a{" "}
+        <span>Software Developer</span>
       </h2>
+      <h3>Would you like to know more about me?</h3>
+      <p className="p-text">Here are some of my biggest strengths:</p>
 
       <div className="app__profiles">
         {abouts.map((about, index) => {
