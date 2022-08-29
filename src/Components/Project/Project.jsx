@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 import { urlFor, client } from "../../client";
 import { PortableText } from "@portabletext/react";
@@ -7,6 +7,7 @@ import { PortableText } from "@portabletext/react";
 import { motion } from "framer-motion";
 
 import "./Project.scss";
+import PortableTextComponent from "../PortableTextComponent/PortableTextComponent";
 
 const Project = () => {
   const [project, setProject] = useState("");
@@ -28,7 +29,7 @@ const Project = () => {
     setIsLoading(false);
   }, [title]);
 
-  console.log(project);
+  console.log(project?.techStack);
 
   return (
     <div className="app__project">
@@ -36,6 +37,9 @@ const Project = () => {
       {project && (
         <>
           <h1 className="head-text">{project.title}</h1>
+          <div className="app__project-body-head">
+            <PortableTextComponent>{project.body.head}</PortableTextComponent>
+          </div>
 
           <div className="app__project-item app__flex">
             <div className="app__project-img app__flex">
@@ -45,24 +49,59 @@ const Project = () => {
                 alt={project.name}
               />
             </div>
-            <div className="app__project-content app__flex">
-              <h4 className="bold-text">{project.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>
-                {project.shortDescription}
-              </p>
 
-              <div className="app__project-tag app__flex">
-                <p className="p-text">{project.tags[0]}</p>
-              </div>
-
-              <div className="app__project-more-info">
-                <PortableText value={project.moreInfo} />
-              </div>
+            <div className="app__project-tech-stack">
+              {project.techStack.map((tech, index) => (
+                <div title={tech.technology} className="app__project-tech-stack-img">
+                  <img
+                    key={`${index}-tech-stacks-${tech}`}
+                    src={urlFor(tech.techIcon)}
+                    alt={tech.technology}
+                    className=""
+                  />
+                </div>
+              ))}
             </div>
+
+            <div className="app__project-content app__flex">
+              <div className="app__project-body">
+                <div className="app__project-body-overview">
+                  <PortableTextComponent>
+                    {project.body.overview}
+                  </PortableTextComponent>
+                </div>
+
+                <div className="app__project-body-my-process">
+                  <PortableTextComponent>
+                    {project.body.myProcess}
+                  </PortableTextComponent>
+                </div>
+
+                <div className="app__project-body-acknowledgement">
+                  <PortableTextComponent>
+                    {project.body.acknowledgement}
+                  </PortableTextComponent>
+                </div>
+
+                {/* end of app__project-tag div ==> */}
+              </div>
+              {/* end of app__project-content div ==> */}
+            </div>
+            {/* end of app__project-item div ==> */}
+          </div>
+          <div className="app__project-tags app__flex">
+            {project.tags.map((tag, index) => (
+              <p
+                className="app__project-tag p-text"
+                key={`${tag}-${index}-${tag}`}
+              >
+                #{tag}
+              </p>
+            ))}
           </div>
         </>
       )}
-      <button onClick={() => navigate(-1)}>Return</button>
+      <Link to="/#work">Return</Link>
     </div>
   );
 };
