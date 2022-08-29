@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import "./Work.scss";
 
 const Work = () => {
-  const [activeFilter, setActiveFilter] = useState("Main");
+  const [activeFilter, setActiveFilter] = useState("Latest");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   const [works, setWorks] = useState([]);
@@ -50,7 +50,7 @@ const Work = () => {
           "Landing Page",
           "Frontend Mentor",
           "All",
-          "Main",
+          "Latest",
         ].map((item, index) => (
           <div
             key={index}
@@ -113,7 +113,7 @@ const Work = () => {
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>
-                {work.description}
+                {work.shortDescription}
               </p>
 
               <div className="app__work-tag app__flex">
