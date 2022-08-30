@@ -13,10 +13,10 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Header />
-        <About />
-        <ProjectsPage />
         <Skills />
-        <Testimonials />
+        <ProjectsPage />
+        <About />
+        {/* <Testimonials /> */}
         <Footer />
       </BrowserRouter>
     </div>

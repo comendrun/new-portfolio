@@ -7,11 +7,12 @@
 .app__work-filter {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
-  margin: 4rem 0 2rem;
+  margin-block: 4rem 2rem;
+  margin-inline: auto;
 
   .app__work-filter-item {
     padding: 0.5rem 1rem;
@@ -144,7 +145,8 @@
     line-height: 1.5;
   }
 
-  h4, p{
+  h4,
+  p {
     text-align: center;
   }
 
