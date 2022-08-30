@@ -15,11 +15,7 @@ const PortableTextComponent = ({ children }) => {
           ? "_blank"
           : undefined;
         return (
-          <a
-            href={value?.href}
-            target={target}
-            rel={target === "_blank" && "noindex nofollow"}
-          >
+          <a href={value?.href} target="_blank" rel="noreferrer">
             {children}
           </a>
         );
@@ -60,7 +56,7 @@ const PortableTextComponent = ({ children }) => {
 
   return (
     <div className="portable-text-container">
-      <PortableText value={children} />
+      <PortableText value={children} components={components} />
     </div>
   );
 };
