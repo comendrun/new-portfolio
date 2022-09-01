@@ -27,6 +27,9 @@ import profile from "../assets/profile.png";
 import comendrun from "../assets/comendrun-removebg.png";
 import comendrun2 from "../assets/comendrun-2.png";
 import circle from "../assets/circle.svg";
+import blob from "../assets/blob.svg";
+import blobColor from "../assets/blob-color.svg";
+
 import logo from "../assets/logo/light-logo-removebg-preview.png";
 
 import adidas from "../assets/adidas.png";
@@ -73,4 +76,6 @@ export default {
   spotify,
   comendrun,
   comendrun2,
+  blob,
+  blobColor,
 };
