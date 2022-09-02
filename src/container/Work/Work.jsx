@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { animate, motion } from "framer-motion";
 
-import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 
 import { Link } from "react-router-dom";
@@ -41,7 +40,10 @@ const Work = () => {
   return (
     <>
       <h2 className="head-text">
-        My <span>Projects</span>
+        First, Let's take a look at{" "}
+        <div>
+          my <span>Projects</span>
+        </div>
       </h2>
       <div className="app__work-filter">
         {[
@@ -120,7 +122,7 @@ const Work = () => {
                 <p className="p-text">{work.tags[0]}</p>
               </div>
 
-              <Link to={`/work/${work.title.split(" ")[0]}`}>More info...</Link>
+              <Link className="more-info" to={`/work/${work.title.split(" ")[0]}`}>More info...</Link>
             </div>
           </div>
         ))}
