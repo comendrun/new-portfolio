@@ -7,6 +7,7 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 
 import "./Navbar.scss";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -14,7 +15,15 @@ function Navbar() {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
+        {/* <img src={images.logo} alt="logo" /> */}
+        <Link className="logo-link" to="/">
+          <motion.h1
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.85, ease: "easeOut" }}
+          >
+            comendrun
+          </motion.h1>
+        </Link>
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => {

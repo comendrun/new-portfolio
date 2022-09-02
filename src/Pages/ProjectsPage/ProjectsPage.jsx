@@ -21,5 +21,5 @@ const ProjectsPage = () => {
 export default AppWrap(
   MotionWrap(ProjectsPage, "app__works"),
   "work",
-  "app__primarybg"
+  "app__whitebg"
 );

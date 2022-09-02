@@ -20,8 +20,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Header />
-        <Skills />
         <ProjectsPage />
+        <Skills />
         <About />
         {/* <Testimonials /> */}
         <Footer />
