@@ -150,9 +150,15 @@ const Project = () => {
           </div>
         </div>
       )}
-      <Link className="app__project-return-btn" to="/#work">
-        Return &#x23CE;
-      </Link>
+      <motion.div className="app__project-return-btn"
+        whileInView={{ opacity: 1 }}
+        whileHover={{ scale: 1.05 }}
+        transition={{ duration: 0.5, type: "tween" }}
+      >
+        <Link className="app__project-return-btn-link" to="/#work">
+          Return &#x23CE;
+        </Link>
+      </motion.div>
     </section>
   );
 };

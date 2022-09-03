@@ -135,8 +135,11 @@
       background-color: var(--secondary-color);
       border-color: var(--secondary-color);
 
+      box-shadow: 0 0 10px white;
+      transform: scale(1.1);
+
       svg {
-        color: var(--white-color);
+        color: var(--text-color);
       }
     }
 
