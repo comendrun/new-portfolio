@@ -1,6 +1,6 @@
 import "./app.scss";
 
-import { About, Header, Testimonials, Footer, Skills, Work } from "./container";
+import { About, Header, Footer, Skills } from "./container";
 
 import { BrowserRouter } from "react-router-dom";
 
@@ -12,8 +12,6 @@ import ThemeContext from "./context/ThemeContext";
 
 function App() {
   const { theme } = useContext(ThemeContext);
-
-  console.log(typeof theme);
 
   return (
     <div className="app" id={theme}>

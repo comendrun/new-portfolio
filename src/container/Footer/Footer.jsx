@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import { images } from "../../constants";
 
@@ -42,13 +42,13 @@ const Footer = () => {
   };
   return (
     <>
-      <h2 className="head-text">Chat with me</h2>
+      <h2 className="head-text chat">Chat with me</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card">
           <img src={images.email} alt="email" />
           <a href="mailto:kamran.rouhani@outlook.com" className="p-text">
-            kamran.rouhani@outlook.com
+            info@comendrun.com
           </a>
         </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
           </button>
         </div>
       ) : (
-        <div>
+        <div className="send-message">
           <h3 className="head-text">Thank you for getting in touch</h3>
         </div>
       )}

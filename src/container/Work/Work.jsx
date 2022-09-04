@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { urlFor, client } from "../../client";
 
@@ -23,7 +23,7 @@ const Work = () => {
       setWorks(data);
       setFilterWork(data.filter((work) => work.tags.includes(activeFilter)));
     });
-  }, []);
+  }, [activeFilter]);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -122,7 +122,14 @@ const Work = () => {
                 <p className="p-text">{work.tags[0]}</p>
               </div>
 
-              <Link className="more-info" to={`/work/${work.title.split(" ")[0]}`}>More info...</Link>
+              <div className="more-info-container">
+                <Link
+                  className="more-info"
+                  to={`/work/${work.title.split(" ")[0]}`}
+                >
+                  More info...
+                </Link>
+              </div>
             </div>
           </div>
         ))}
