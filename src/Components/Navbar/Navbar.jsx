@@ -26,7 +26,7 @@ function Navbar() {
         </Link>
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "work", "skills", "contact"].map((item) => {
+        {["home", "work", "skills", "about", "contact"].map((item) => {
           return (
             <li className="app__flex p-text" key={`link-${item}`}>
               <div />

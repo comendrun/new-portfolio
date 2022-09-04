@@ -28,7 +28,8 @@ import comendrun from "../assets/comendrun-removebg.png";
 import comendrun2 from "../assets/comendrun-2.png";
 import circle from "../assets/circle.svg";
 import blob from "../assets/blob.svg";
-import blobColor from "../assets/blob-color.svg";
+import blobPinkColor from "../assets/blob-color.svg";
+import blobBlueColor from "../assets/blob-blue-color.svg";
 
 import logo from "../assets/logo/light-logo-removebg-preview.png";
 
@@ -77,5 +78,6 @@ export default {
   comendrun,
   comendrun2,
   blob,
-  blobColor,
+  blobPinkColor,
+  blobBlueColor,
 };

@@ -45,17 +45,15 @@ const Header = () => {
       <motion.div
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
-        whileHover={{ scale: 1.02, rotate:0.5 }}
+        whileHover={{ scale: 1.02, rotate: 0.5 }}
         className="app__header-img"
       >
         <img src={images.comendrun2} alt="profile_bg" />
         <motion.img
           whileInView={{ scale: [0, 1] }}
           transition={{ duration: 1, ease: "easeInOut" }}
-         
-          
           className="overlay_circle"
-          src={images.blobColor}
+          src={images.blobBlueColor}
           alt="profile_circle"
         />
       </motion.div>

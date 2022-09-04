@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import { urlFor, client } from "../../client";
-import { PortableText } from "@portabletext/react";
 
-import { IoMdGlobe } from "react-icons/io";
-import { FiGithub } from "react-icons/fi";
 import { BsBoxArrowUpRight } from "react-icons/bs";
 
 import { motion } from "framer-motion";
@@ -19,8 +16,6 @@ const Project = () => {
 
   const { title } = useParams();
 
-  const navigate = useNavigate();
-
   useEffect(() => {
     setIsLoading(true);
     const query = '*[_type == "works"]';
@@ -32,8 +27,6 @@ const Project = () => {
 
     setIsLoading(false);
   }, [title]);
-
-  console.log(project?.techStack);
 
   return (
     <section className="app__project">
@@ -150,7 +143,8 @@ const Project = () => {
           </div>
         </div>
       )}
-      <motion.div className="app__project-return-btn"
+      <motion.div
+        className="app__project-return-btn"
         whileInView={{ opacity: 1 }}
         whileHover={{ scale: 1.05 }}
         transition={{ duration: 0.5, type: "tween" }}

@@ -18,21 +18,21 @@
   --font-base: "DM Sans", sans-serif;
 
   --primary-color: #333333;
-  --secondary-color: #ff0066;
+  --secondary-color: #3a86ff;
 
   --white-color: #202124;
 
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
 
-  --accent-color: #ff0066;
+  --accent-color: #3a86ff;
 
   --text-base: #ffffff;
   --text-desc: #ffffffa1;
-  --text-accent: #ff0066;
+  --text-accent: #3a86ff;
   --text-accent-2: #313bac;
 
-  --box-shadow-color: rgba(255, 255, 255, 0.2);
+  --box-shadow-color: rgba(58, 134, 255, 0.4);
 
   --header-bg: url("./assets/outline-blob/bgDark-with-outline-blobs.png");
 }
